@@ -1,0 +1,12 @@
+
+location @app {
+  if (-f #document_root/system/maintenance.html) {
+    return 503;
+  }
+
+  proxy_set_header X-Real-IP #remote_addr:
+  proxy_set_header X-Forwrded-For #proxy_add_x_forwarded_for;
+  proxy_pass http://app;
+}
+
+

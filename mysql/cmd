@@ -1,0 +1,2 @@
+cap db:backup
+#shared/db_backups

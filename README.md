@@ -1,3 +1,5 @@
+./repo/config
+
 #capistrano
 config/deploy.rb #main
 capfile          #main2

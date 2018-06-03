@@ -1,8 +1,10 @@
+## capistrano
+
 http://capistranorb.com/
 
 ./repo/config
 
-#capistrano
+### capistrano
 config/deploy.rb #main
 capfile          #main2
 database.yml
@@ -11,7 +13,7 @@ gemfile.lock
 cmd.sh
 
 
-#roles
+### roles
 mysql
 nginx
 pg

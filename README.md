@@ -18,3 +18,4 @@ cmd.sh
 mysql
 nginx
 pg
+
